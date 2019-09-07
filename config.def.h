@@ -24,7 +24,7 @@ static const char col_white[]       = "#dedacf";
 static const char *colors[][3]      = {
 	/*                     fg         bg         border   */
 	[SchemeNorm]      = { col_gray3,   col_gray1, col_gray2 },
-	[SchemeSel]       = { col_gray4,   col_red,   col_red   },
+	[SchemeSel]       = { col_gray4,   col_red,     col_red },
 	[SchemeRed]       = { col_red,     col_gray1, col_gray2 },
 	[SchemeGreen]     = { col_green,   col_gray1, col_gray2 },
 	[SchemeYellow]    = { col_yellow,  col_gray1, col_gray2 },
