@@ -32,6 +32,7 @@ static const char *colors[][3]      = {
 	[SchemeMagenta]   = { col_magenta, col_gray1, col_gray2 },
 	[SchemeCyan]      = { col_cyan,    col_gray1, col_gray2 },
 	[SchemeWhite]     = { col_white,   col_gray1, col_gray2 },
+	[SchemeBlackBG]   = { col_white,   col_black, col_black },
 };
 
 /* tagging */
