@@ -6,6 +6,8 @@ static const unsigned int gappx     = 8;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int vertpad			= 8;		/* vertical padding of status bar */
+static const int sidepad			= 8;		/* horizontal padding of status bar */
 static const char *fonts[]          = { "TerminessTTF Nerd Font:style=Medium:size=14" };
 static const char dmenufont[]       = "TerminessTTF Nerd Font:style=Medium:size=14";
 static const char col_gray1[]       = "#222222";
