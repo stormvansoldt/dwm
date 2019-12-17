@@ -9,9 +9,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int vertpad			= 8;		/* vertical padding of status bar */
 static const int sidepad			= 8;		/* horizontal padding of status bar */
 static const char *fonts[]          = { 
-	"UbuntuMono Nerd Font Mono:style=Regular:size=14",
-	"Noto Color Emoji:style=Regular",
-	"DejaVu Sans:style=Book"
+	"UbuntuMono Nerd Font Mono:style=Regular:size=14"
 };
 static const char dmenufont[]       = "UbuntuMono Nerd Font Mono:style=Regular:size=14";
 static const char col_gray1[]       = "#222222";
