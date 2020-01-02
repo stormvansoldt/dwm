@@ -12,23 +12,23 @@ static const char *fonts[]          = {
 	"UbuntuMono Nerd Font Mono:style=Regular:size=14"
 };
 static const char dmenufont[]       = "UbuntuMono Nerd Font Mono:style=Regular:size=14";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_black[]       = "#000000";
-static const char col_red[]         = "#ff615a";
-static const char col_green[]       = "#b1e969";
-static const char col_yellow[]      = "#ebd99c";
-static const char col_blue[]        = "#5da9f6";
-static const char col_magenta[]     = "#e86aff";
-static const char col_cyan[]        = "#82fff7";
-static const char col_white[]       = "#dedacf";
+static const char col_gray1[]       = "#2e3440";
+static const char col_gray2[]       = "#3b4252";
+static const char col_gray3[]       = "#434c5e";
+static const char col_gray4[]       = "#4c566a";
+static const char col_black[]       = "#3b4252";
+static const char col_red[]         = "#bf616a";
+static const char col_green[]       = "#a3be8c";
+static const char col_yellow[]      = "#ebcb8b";
+static const char col_blue[]        = "#81a1c1";
+static const char col_magenta[]     = "#b48ead";
+static const char col_cyan[]        = "#88c0d0";
+static const char col_white[]       = "#e5e9f0";
 
 static const char *colors[][3]      = {
 	/*                     fg         bg         border   */
-	[SchemeNorm]      = { col_gray3,   col_gray1, col_gray2 },
-	[SchemeSel]       = { col_gray4,   col_red,     col_red },
+	[SchemeNorm]      = { col_white,   col_gray1, col_gray2 },
+	[SchemeSel]       = { col_white,   col_blue,   col_blue },
 	[SchemeRed]       = { col_red,     col_gray1, col_gray2 },
 	[SchemeGreen]     = { col_green,   col_gray1, col_gray2 },
 	[SchemeYellow]    = { col_yellow,  col_gray1, col_gray2 },
